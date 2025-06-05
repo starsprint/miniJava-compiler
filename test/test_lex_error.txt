@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 010;      // 非法数字（前导零）
+        int _z = x + 2 * (y - 3);
+        String s = "hello";
+        String t = "unterminated; // 未终止字符串
+        int 1abc;         // 非法标识符（数字开头）
+        int a@b;          // 非法标识符（非法字符@）
+        #                 // 无法识别的字符
+        x = x + y * 2 < 100 = 1;
+    }
+}
+$

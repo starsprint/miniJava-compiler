@@ -1,0 +1,16 @@
+= 5  x
+= 10  y
+Mul y 2 t0
+Add x t0 t1
+Sub t1 3 t2
+= t2  z
+Lt z 20 t3
+Add x 1 t4
+= t4  x
+Sub y 1 t5
+= t5  x
+Lt x 100 t6
+Eq t6 1 t7
+Add x 1 t8
+= t8  x
+= ok  s

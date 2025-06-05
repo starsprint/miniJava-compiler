@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        int x = 5
+        int y = ;         // 缺少初始化
+        if (x < 10        // 缺少右括号
+            x = x + 1;
+        } else {
+            x = y - 1;
+        }
+        while x < 100) {  // 缺少左括号
+            x = x + 1;
+        }
+        String s = "ok;
+    }
+}
+$

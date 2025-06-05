@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        y = 10;         // 未定义变量 y
+        String s = "hi";
+        t = s;          // 未定义变量 t
+        x = s;          // 变量类型不匹配
+    }
+}

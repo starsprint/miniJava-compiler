@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+        int z = x + y * 2 - 3;
+        if (z < 20) {
+            x = x + 1;
+        } else {
+            x = y - 1;
+        }
+        while (x < 100 = 1) {
+            x = x + 1;
+        }
+        String s = "ok";
+    }
+}
+$
