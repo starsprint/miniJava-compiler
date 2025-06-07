@@ -17,7 +17,7 @@
 3. test（测试文件）
 # 编译
 ```
-g++ -std=c++11 -o miniJava main.cpp lex.cpp parser.cpp semantic.cpp irgen.cpp ast_visualize.cpp
+g++ -std=c++11 -o test main.cpp lex.cpp parser.cpp semantic.cpp irgen.cpp ast_visualize.cpp
 ```
 # 运行
 ```
